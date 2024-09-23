@@ -20,7 +20,8 @@ import { Section2Component } from './section2/section2.component';
   exports:[
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    Section2Component
   ]
 })
 export class VIEW1Module { }

@@ -37,4 +37,11 @@ export class HomeComponent implements OnInit, OnDestroy {
   prevImage() {
     this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
   }
+
+  scrollToSection() {
+    const element = document.getElementById('conocenos');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }
