@@ -1,1 +1,23 @@
-<p>home works!</p>
+<div class="Home">
+    <div class="info">
+      <div>
+        <h1>A.C.A</h1><br>
+        <h2>ADOPTA CON AMOR</h2><br>
+        <h2>Una fundación que busca un hogar para un mejor amigo</h2>
+      </div>
+      <div>
+        <button>Conócenos</button>
+      </div>
+    </div>
+  
+    <div class="imagenes">
+      <div class="carousel">
+        <img [src]="images[currentIndex]" alt="Imagen" class="carousel-image">
+        <div class="controls">
+          <button (click)="prevImage()">&#10094;</button>
+          <button (click)="nextImage()">&#10095;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

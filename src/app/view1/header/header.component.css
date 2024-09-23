@@ -2,7 +2,10 @@ header {
     background-color: #5c2b2b;
     color: white;
     padding: 10px 0;
-    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
   }
   
   nav {
@@ -20,7 +23,7 @@ header {
   }
   
   .logo {
-    margin-left: 250px;
+    margin-left: 300px;
     flex: 1;
     font-weight: bold;
   }
@@ -61,7 +64,6 @@ header {
   }
   
   ul.active {
-    width: 350px;
     display: flex;
   }
   
