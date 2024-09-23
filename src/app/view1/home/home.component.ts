@@ -7,9 +7,11 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 })
 export class HomeComponent implements OnInit, OnDestroy {
   images = [
-    '/assets/image1.jpg',
-    '/assets/image2.jpg',
-    '/assets/image3.jpg'
+    '/1.jpg',
+    '/2.jpg',
+    '/3.jpg',
+    '/4.jpg',
+    '/5.jpg'
   ];
   currentIndex = 0;
   interval: any;
@@ -25,7 +27,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   startCarousel() {
     this.interval = setInterval(() => {
       this.nextImage();
-    }, 3000); // Cambia cada 3 segundos
+    }, 3000); 
   }
 
   nextImage() {
