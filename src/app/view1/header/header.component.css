@@ -1,0 +1,79 @@
+header {
+    background-color: #5c2b2b;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  .menu-icon {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .logo {
+    margin-left: 300px;
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contact-info img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px;
+  }
+  
+  .contact-info span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 300px;
+    height: auto;
+    background-color: #5c2b2b;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul.active {
+    display: flex;
+  }
+  
+  ul li {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  

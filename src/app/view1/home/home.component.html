@@ -1,0 +1,54 @@
+<div class="Home">
+    <div class="info">
+      <div>
+        <h1>A.C.A</h1><br>
+        <h2>ADOPTA CON AMOR</h2><br>
+        <h2>Una fundación que busca un hogar para un mejor amigo</h2>
+      </div>
+      <div>
+        <button (click)="scrollToSection()">Conócenos</button>
+      </div>
+    </div>
+  
+    <div class="imagenes">
+      <div class="carousel">
+        <img [src]="images[currentIndex]" alt="Imagen" class="carousel-image">
+        <div class="controls">
+          <button (click)="prevImage()">&#10094;</button>
+          <button (click)="nextImage()">&#10095;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="conocenos" class="conocenos">
+    <h1>CONOCE MÁS SOBRE NOSOTROS:</h1>
+    <div class="section">
+      <div class="content">
+        <h2>¿Quiénes somos?</h2>
+        <p>En A.C.A., nuestra misión es proporcionar un hogar amoroso y seguro a perros que han sido abandonados o que necesitan una nueva oportunidad en la vida. Somos una fundación dedicada a rescatar, rehabilitar y reubicar a perros de todas las razas y edades. Nuestro equipo está compuesto por voluntarios apasionados y expertos en el bienestar animal que trabajan incansablemente para asegurar que cada perro reciba el cuidado y la atención que merece.</p>
+      </div>
+      <div class="image">
+        <img src="/22.jpg" alt="¿Quiénes somos?">
+      </div>
+    </div>
+    <div class="section">
+      <div class="image">
+        <img src="/11.jpg" alt="¿Qué Buscamos?">
+      </div>
+      <div class="content">
+        <h2>¿Qué Buscamos?</h2>
+        <p>En A.C.A., buscamos crear un mundo donde cada perro tenga un hogar lleno de amor y cuidado. Nuestro objetivo es sensibilizar a la comunidad sobre la importancia de la adopción responsable y reducir el número de perros sin hogar a través de programas de educación, esterilización y adopción. Trabajamos para construir una red de apoyo que facilite el proceso de adopción y garantice que cada perro encuentre la familia perfecta.</p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="content">
+        <h2>Alcance de Nuestra Fundación:</h2>
+        <p>Desde nuestra fundación, hemos logrado rescatar y encontrar hogares para más de 500 perros, cambiando sus vidas y las de sus nuevas familias para siempre. Nuestras campañas de concienciación han alcanzado a miles de personas, promoviendo la importancia de la adopción y el bienestar animal. Además, hemos implementado programas de esterilización gratuitos que han contribuido a controlar la población de perros callejeros en nuestra comunidad. Con el apoyo de donantes y voluntarios, continuamos expandiendo nuestro alcance y haciendo una diferencia significativa en la vida de los animales.</p>
+      </div>
+      <div class="image">
+        <img src="/33.jpg" alt="Alcance de Nuestra Fundación">
+      </div>
+    </div>
+  </div>
+  

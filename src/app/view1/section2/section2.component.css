@@ -1,0 +1,49 @@
+
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #7a5454;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header, section {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.process img, .importance img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.process img {
+    max-width: 300px;
+}
+
+.importance img {
+    max-width: 200px;
+}
