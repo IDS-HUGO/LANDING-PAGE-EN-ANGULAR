@@ -24,4 +24,6 @@ import { Section2Component } from './section2/section2.component';
     Section2Component
   ]
 })
-export class VIEW1Module { }
+export class VIEW1Module {
+  
+ }
