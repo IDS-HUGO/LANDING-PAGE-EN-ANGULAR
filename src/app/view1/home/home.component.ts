@@ -7,11 +7,11 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 })
 export class HomeComponent implements OnInit, OnDestroy {
   images = [
-    '/1.jpg',
-    '/2.jpg',
-    '/3.jpg',
-    '/4.jpg',
-    '/5.jpg'
+    '1.jpg',
+    '2.jpg',
+    '3.jpg',
+    '4.jpg',
+    '5.jpg'
   ];
   currentIndex = 0;
   interval: any;
